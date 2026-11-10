@@ -1,23 +1,23 @@
-<html><head><style>
-*{margin:0;box-sizing:border-box}
-body{width:1080px;height:1350px;background:#F5F3EE;font-family:'Inter';color:#14213D;padding:96px;display:flex;flex-direction:column}
-.tag{font-size:30px;font-weight:600;color:#C77F00;letter-spacing:3px;text-transform:uppercase}
-h1{font-family:'Inter Display';font-size:80px;line-height:1.05;font-weight:800;margin-top:36px;letter-spacing:-1.5px}
-.steps{margin-top:72px;display:flex;flex-direction:column;gap:36px}
-.s{display:flex;gap:36px;align-items:flex-start;background:#fff;border-radius:24px;padding:40px;border-left:12px solid #F2A007}
-.n{font-family:'Inter Display';font-size:64px;font-weight:800;color:#F2A007;line-height:1;min-width:60px}
-.s b{font-size:40px;display:block}
-.s span{font-size:30px;color:#55607A;line-height:1.4;display:block;margin-top:10px}
-.foot{margin-top:auto;display:flex;justify-content:space-between;align-items:center}
-.brand{font-family:'Inter Display';font-size:52px;font-weight:800}
-.url{font-size:30px;color:#55607A}
+<html><head><link rel="stylesheet" href="base.css"><style>
+body{background:var(--soft)}
+.main{padding:88px 88px 0;display:flex;flex-direction:column}
+.tag{margin-top:72px}
+h1{font-size:76px;margin-top:24px}
+.steps{margin-top:56px;display:flex;flex-direction:column;gap:28px}
+.s{display:flex;gap:32px;align-items:center;background:#fff;border:2px solid var(--border);border-radius:14px;padding:36px 40px;box-shadow:0 4px 14px rgba(0,47,108,.06)}
+.n{flex:none;width:76px;height:76px;border-radius:50%;background:var(--orange);color:#fff;font-family:Manrope;font-weight:800;font-size:40px;display:flex;align-items:center;justify-content:center}
+.s b{font-family:Manrope;font-weight:700;font-size:40px;color:var(--blue);display:block}
+.s span{font-size:30px;line-height:1.4;display:block;margin-top:8px}
 </style></head><body>
-<div class="tag">Last Planner na prática</div>
-<h1>Do plano do turno<br>ao RDO em 3 passos</h1>
+<div class="main">
+<img class="logo" src="assets/frentia-logo.png">
+<div class="tag">Planejamento do dia</div>
+<h1>Do plano ao relatório<br>em <em>3 passos</em></h1>
 <div class="steps">
-<div class="s"><div class="n">1</div><div><b>Planeje o turno</b><span>Frentes de serviço, equipes e metas do dia.</span></div></div>
-<div class="s"><div class="n">2</div><div><b>Lance pelo celular</b><span>O encarregado registra o feito e a causa do não feito.</span></div></div>
-<div class="s"><div class="n">3</div><div><b>Gere o RDO</b><span>PDF pronto com os dados do canteiro.</span></div></div>
+<div class="s"><div class="n">1</div><div><b>Planeje o turno</b><span>Atividades, equipes e metas de cada frente.</span></div></div>
+<div class="s"><div class="n">2</div><div><b>Lance pelo celular</b><span>A equipe registra o feito e a causa do não feito.</span></div></div>
+<div class="s"><div class="n">3</div><div><b>Gere o relatório</b><span>PDF pronto com os dados de campo.</span></div></div>
 </div>
-<div class="foot"><div class="brand">Frentia</div><div class="url">frentia.com.br</div></div>
+</div>
+<div class="foot"><span class="url">frentia.com.br</span><span class="cta">Teste grátis</span></div>
 </body></html>

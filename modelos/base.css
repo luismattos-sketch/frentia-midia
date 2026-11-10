@@ -1,0 +1,14 @@
+/* Frentia: tokens do Manual da Marca v1.0 */
+@font-face{font-family:Manrope;font-weight:600;src:url(assets/manrope-latin-600-normal.woff2)}
+@font-face{font-family:Manrope;font-weight:700;src:url(assets/manrope-latin-700-normal.woff2)}
+@font-face{font-family:Manrope;font-weight:800;src:url(assets/manrope-latin-800-normal.woff2)}
+:root{--blue:#002F6C;--blue2:#0B4A8F;--orange:#FF6B00;--graphite:#263238;--soft:#EEF2F6;--border:#D7DEE8;--success:#2E7D32;--warning:#F9A825;--danger:#C62828}
+*{margin:0;box-sizing:border-box}
+body{width:1080px;height:1350px;font-family:Inter,Arial,sans-serif;color:var(--graphite);display:flex;flex-direction:column;overflow:hidden}
+.logo{height:84px;align-self:flex-start} /* largura ~325px; manter respiro livre ao redor */
+.tag{font-family:Manrope;font-weight:700;font-size:28px;letter-spacing:2.5px;text-transform:uppercase;color:var(--blue2)}
+h1{font-family:Manrope;font-weight:800;color:var(--blue);letter-spacing:-1.5px;line-height:1.05}
+h1 em{font-style:normal;color:var(--orange)}
+.foot{margin-top:auto;background:var(--blue);color:#fff;display:flex;justify-content:space-between;align-items:center;padding:44px 88px}
+.foot .url{font-family:Manrope;font-weight:700;font-size:38px}
+.cta{background:var(--orange);color:#fff;font-family:Manrope;font-weight:700;font-size:30px;padding:18px 32px;border-radius:10px}
